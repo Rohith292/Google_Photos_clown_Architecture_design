@@ -1,0 +1,449 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8" pages="3">
+  <diagram name="Delete Media- Application flow diagram" id="txH1dvDqgzrqQP82yNEB">
+    <mxGraphModel dx="1042" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WOiTZTmcrpaqZSLRElIX-1" target="WOiTZTmcrpaqZSLRElIX-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-1" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;strong&gt;User taps &quot;Delete&quot; button&lt;/strong&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Delete Media: Application(User) flow diagram&lt;/h1&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;Goal:&lt;/strong&gt; To show the user&#39;s journey for permanently deleting a photo or video.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="40" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="279.38" as="targetPoint" />
+            <mxPoint x="130" y="279.38" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-5" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;(User is in the main gallery or viewing a photo full-screen)&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WOiTZTmcrpaqZSLRElIX-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.3053" y="1" relative="1" as="geometry">
+            <mxPoint x="34" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="50" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WOiTZTmcrpaqZSLRElIX-6" target="WOiTZTmcrpaqZSLRElIX-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-6" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;strong&gt;App shows &quot;Are you sure?&quot; confirmation dialog&lt;/strong&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="360" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WOiTZTmcrpaqZSLRElIX-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.5437" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-8" target="WOiTZTmcrpaqZSLRElIX-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="867" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-14" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WOiTZTmcrpaqZSLRElIX-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.2944" relative="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-8" value="&quot;User taps &#39;delete&#39;?&quot;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="827" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-13" value="End&lt;div&gt;(user has cancelled the delete)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="827" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-16" target="WOiTZTmcrpaqZSLRElIX-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-16" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;strong&gt;&amp;nbsp;UI removes photo from gallery &amp;amp; shows &quot;Deleting...&quot;&lt;/strong&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-18" target="WOiTZTmcrpaqZSLRElIX-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-18" value="&quot;Begin Background process: Delete media&quot;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-27" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WOiTZTmcrpaqZSLRElIX-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.4526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WOiTZTmcrpaqZSLRElIX-20" target="WOiTZTmcrpaqZSLRElIX-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WOiTZTmcrpaqZSLRElIX-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.6706" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-20" value="Delete operation successful ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1295" y="400" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-24" target="WOiTZTmcrpaqZSLRElIX-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-24" value="UI shows &quot;Error: could not delete media and restores them back to gallery&quot; message" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="450" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-26" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WOiTZTmcrpaqZSLRElIX-28" target="WOiTZTmcrpaqZSLRElIX-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-28" value="UI shows &quot; Items deleted successfully&quot; message" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WOiTZTmcrpaqZSLRElIX-32" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QZlKtd58bDOk1M_1t-8w" name="Delete Media-Server side architecture">
+    <mxGraphModel dx="2316" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S0liItvss_F-IkntVOAx-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Delete Media-Server side Architecture diagram&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="60" width="680" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S0liItvss_F-IkntVOAx-2" target="S0liItvss_F-IkntVOAx-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-10" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(1. DELETE /photos/{photo_id} [JWT])&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2172" y="3" relative="1" as="geometry">
+            <mxPoint x="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-2" value="Mobile App(External factor)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-3" value="Server Side Architecture(Delete Media)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480.00000000000045" y="310" width="1850" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-4" value="Amazon API gateway" style="swimlane;startSize=20;html=1;" parent="S0liItvss_F-IkntVOAx-3" vertex="1">
+          <mxGeometry y="20" width="530" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="S0liItvss_F-IkntVOAx-4" source="S0liItvss_F-IkntVOAx-8" target="S0liItvss_F-IkntVOAx-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-8" value="Amazon API Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;" parent="S0liItvss_F-IkntVOAx-4" vertex="1">
+          <mxGeometry x="139.99999999999955" y="85" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-11" value="Is Valid JWT?" style="rhombus;whiteSpace=wrap;html=1;" parent="S0liItvss_F-IkntVOAx-4" vertex="1">
+          <mxGeometry x="290" y="95" width="123" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.089;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="S0liItvss_F-IkntVOAx-4" source="S0liItvss_F-IkntVOAx-8" target="S0liItvss_F-IkntVOAx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="40" />
+              <mxPoint x="-299" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-59" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(12c. 500 Internal Server Error)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-58" vertex="1" connectable="0">
+          <mxGeometry x="0.1551" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-5" value="Lambda" style="swimlane;startSize=20;html=1;" parent="S0liItvss_F-IkntVOAx-3" vertex="1">
+          <mxGeometry x="530" y="20" width="570" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="S0liItvss_F-IkntVOAx-5" source="S0liItvss_F-IkntVOAx-13" target="S0liItvss_F-IkntVOAx-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="273" />
+              <mxPoint x="222" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="S0liItvss_F-IkntVOAx-5" vertex="1">
+          <mxGeometry x="199.99999999999955" y="104" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-18" value="deletePhotoLambda" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="S0liItvss_F-IkntVOAx-5" vertex="1">
+          <mxGeometry x="59.999999999999545" y="176" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="S0liItvss_F-IkntVOAx-5" source="S0liItvss_F-IkntVOAx-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320.00000000000045" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-32" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(5b. 404 Not Found Error)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.4363" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-33" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.9437" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-28" value="Does photo exist and &#39;owner_id&#39; match &#39;user_id&#39;?" style="rhombus;whiteSpace=wrap;html=1;" parent="S0liItvss_F-IkntVOAx-5" vertex="1">
+          <mxGeometry x="80" y="370" width="285" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="S0liItvss_F-IkntVOAx-5" target="S0liItvss_F-IkntVOAx-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="259.9999999999991" y="160" as="sourcePoint" />
+            <mxPoint x="740.9999999999995" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="160" />
+              <mxPoint x="630" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-24" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(3. SELECT owner_id, file_size, object_key FROM photos&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;&amp;nbsp;WHERE photo_id = [photo_id])&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.2657" relative="1" as="geometry">
+            <mxPoint x="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-6" value="Amazon RDS postgreSQL" style="swimlane;startSize=20;html=1;" parent="S0liItvss_F-IkntVOAx-3" vertex="1">
+          <mxGeometry x="1100" y="20" width="420" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-22" value="Amazon RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" parent="S0liItvss_F-IkntVOAx-6" vertex="1">
+          <mxGeometry x="179.99999999999955" y="90" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-7" value="Amazon S3" style="swimlane;startSize=20;html=1;" parent="S0liItvss_F-IkntVOAx-3" vertex="1">
+          <mxGeometry x="1520" y="20" width="330" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-40" value="S3 doest not send succes its just fire and forget" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="S0liItvss_F-IkntVOAx-7" vertex="1">
+          <mxGeometry x="20" y="195" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="S0liItvss_F-IkntVOAx-3" source="S0liItvss_F-IkntVOAx-11" target="S0liItvss_F-IkntVOAx-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.7448" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-17" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(2. Validates JWT, triggers Lambda)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-14" vertex="1" connectable="0">
+          <mxGeometry x="0.0635" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="S0liItvss_F-IkntVOAx-3" source="S0liItvss_F-IkntVOAx-22" target="S0liItvss_F-IkntVOAx-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="230" />
+              <mxPoint x="764" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-26" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(4. Photo Record)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-25" vertex="1" connectable="0">
+          <mxGeometry x="0.1352" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="S0liItvss_F-IkntVOAx-3" source="S0liItvss_F-IkntVOAx-28" target="S0liItvss_F-IkntVOAx-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1369.9999999999995" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-35" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(5. TRANSACTION START)&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(6. UPDATE users SET storage_used = storage_used - [file_size]&amp;nbsp;&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;WHERE user_id = [user_id])&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(7. DELETE FROM photos WHERE photo_id = [photo_id])&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(8. COMMIT)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.6363" y="1" relative="1" as="geometry">
+            <mxPoint x="103" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-36" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.924" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="S0liItvss_F-IkntVOAx-3" source="S0liItvss_F-IkntVOAx-13" target="S0liItvss_F-IkntVOAx-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="90" />
+              <mxPoint x="180" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-49" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(11. 200 OK Response &quot;Deleted&quot;)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-48" vertex="1" connectable="0">
+          <mxGeometry x="0.0349" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="S0liItvss_F-IkntVOAx-3" source="S0liItvss_F-IkntVOAx-13" target="S0liItvss_F-IkntVOAx-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="70" />
+              <mxPoint x="170" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-56" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(11c. 500 Internal Server Error)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-55" vertex="1" connectable="0">
+          <mxGeometry x="0.2385" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="S0liItvss_F-IkntVOAx-3" source="S0liItvss_F-IkntVOAx-22" target="S0liItvss_F-IkntVOAx-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="90" />
+              <mxPoint x="789" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-62" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(9. Commit Success)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-61" vertex="1" connectable="0">
+          <mxGeometry x="0.0698" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S0liItvss_F-IkntVOAx-11" target="S0liItvss_F-IkntVOAx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="550" />
+              <mxPoint x="230" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.8523" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-21" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(2b. 401 Unauthorized Error)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-19" vertex="1" connectable="0">
+          <mxGeometry x="0.0284" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-38" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+          <mxGeometry x="2090" y="420" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S0liItvss_F-IkntVOAx-13" target="S0liItvss_F-IkntVOAx-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="370" />
+              <mxPoint x="2130" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-47" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bp%20data-pm-slice%3D%26quot%3B1%201%20%5B%26amp%3Bquot%3Bordered_list%26amp%3Bquot%3B%2C%7B%26amp%3Bquot%3Border%26amp%3Bquot%3B%3A1%7D%2C%26amp%3Bquot%3Blist_item%26amp%3Bquot%3B%2C%7B%7D%2C%26amp%3Bquot%3Bbullet_list%26amp%3Bquot%3B%2C%7B%7D%2C%26amp%3Bquot%3Blist_item%26amp%3Bquot%3B%2C%7B%7D%5D%26quot%3B%26gt%3B%26lt%3Bcode%26gt%3B(10.%20DELETE%20Object%20%5Bobject_key%5D)%26lt%3B%2Fcode%26gt%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221960.5%22%20y%3D%22470%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bp%20data-pm-slice%3D%26quot%3B1%201%20%5B%26amp%3Bquot%3Bordered_list%26amp%3Bquot%3B%2C%7B%26amp%3Bquot%3Border%26amp%3Bquot%3B%3A1%7D%2C%26amp%3Bquot%3Blist_item%26amp%3Bquot%3B%2C%7B%7D%2C%26amp%3Bquot%3Bbullet_list%26amp%3Bquot%3B%2C%7B%7D%2C%26amp%3Bquot%3Blist_item%26amp%3Bquot%3B%2C%7B%7D%5D%26quot%3B%26gt%3B%26lt%3Bcode%26gt%3B(10.%20DELETE%20Object%20%5Bobject_key%5D)%26lt%3B%2Fcode%26gt%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221960.5%22%20y%3D%22470%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(10. DELETE Object [object_key])&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.0186" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="S0liItvss_F-IkntVOAx-8" target="S0liItvss_F-IkntVOAx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-51" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(12. 200 OK Response &quot;Deleted&quot;)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-50" vertex="1" connectable="0">
+          <mxGeometry x="0.0184" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="S0liItvss_F-IkntVOAx-8" target="S0liItvss_F-IkntVOAx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="400" />
+              <mxPoint x="200" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0liItvss_F-IkntVOAx-53" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(12b. 404 Not Found Error)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0liItvss_F-IkntVOAx-52" vertex="1" connectable="0">
+          <mxGeometry x="0.2839" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="t7bvCbljOpzNetnfHSl3" name="Delete Media- Block Diagram">
+    <mxGraphModel dx="2084" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-1" value="&lt;h1 data-pm-slice=&quot;1 1 []&quot;&gt;Diagram 3: Component Block Diagrams&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; To show the internal structure of our storage services (S3 and RDS) as requested.&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="1940" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-2" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;1. Amazon S3: Storage Bucket Structure&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;This diagram shows how we will organize files within our S3 bucket. We will use a folder-per-user model to keep data isolated and secure.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="766" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="464" y="430" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-4" value="&lt;pre data-pm-slice=&quot;1 1 []&quot;&gt;&lt;code&gt;[Amazon S3 Bucket: &quot;photosync-main-bucket&quot;]&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="484" y="450" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-6" value="Folder: &quot;user_id_123&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-7" value="- photo_abc.jpg&lt;br/&gt;- photo_xyz.png&lt;br/&gt;- video_001.mp4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="572.5" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-8" value="Other folders...." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="464" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-9" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;2. Amazon RDS (PostgreSQL): Database Schema&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;This diagram shows the database tables we will create inside our PostgreSQL instance. These tables will hold all the metadata for our application.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="860" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="983" width="340" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-11" value="Amazon RDS Instance: &quot;photosync-db&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="1010" width="246" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1080" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-13" value="Table: &quot;users&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1090" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-14" value="- user_id (Primary Key)&lt;div&gt;- email&lt;br&gt;- storage_used (e.g., 2.5GB)&lt;br&gt;- storage_quota (e.g., 5GB)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1140" width="163" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1320" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-16" value="Table: &quot;photos&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-17" value="- photo_id (Primary Key)&lt;br/&gt;- owner_id (Foreign Key to users)&lt;br/&gt;- object_key (e.g., &quot;user_id_123/...&quot;)&lt;br/&gt;- file_size&lt;br/&gt;- created_at (timestamp)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1390" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1580" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-19" value="Table: &quot;pending_uploads&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1600" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6UNSMDnh1Vz5vPRcS4g-20" value="- pending_id (Primary Key)&lt;br/&gt;- owner_id (Foreign Key to users)&lt;br/&gt;- file_size&lt;br/&gt;- created_at (timestamp)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="526.5" y="1650" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

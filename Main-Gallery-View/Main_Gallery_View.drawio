@@ -1,0 +1,343 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="3">
+  <diagram name="Main gallery view-Application side Architecture" id="soFeNT79Fc8wWR2HupLG">
+    <mxGraphModel dx="2977" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mT2T0vd9U5Znf32n-R54-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-1" target="mT2T0vd9U5Znf32n-R54-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-4" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;(User is already logged in and on the main screen)&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mT2T0vd9U5Znf32n-R54-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1411" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mT2T0vd9U5Znf32n-R54-2" target="mT2T0vd9U5Znf32n-R54-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-2" value="App navigates to main gallery" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-5" target="mT2T0vd9U5Znf32n-R54-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-5" value="&quot;Begin Background Process: Fetch photos&quot;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="707" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mT2T0vd9U5Znf32n-R54-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.6489" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mT2T0vd9U5Znf32n-R54-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.6933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-7" value="Fetch successful?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-17" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mT2T0vd9U5Znf32n-R54-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.705" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPnkVTFteZGqy6TIdmlY-1" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mT2T0vd9U5Znf32n-R54-16">
+          <mxGeometry x="-0.6436" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-14" value="Photos Found?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-18" target="mT2T0vd9U5Znf32n-R54-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-18" value="UI renders grid of photos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-20" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-21" target="mT2T0vd9U5Znf32n-R54-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-21" value="UI shows &quot;Error loading photos&quot; message" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mT2T0vd9U5Znf32n-R54-22" target="mT2T0vd9U5Znf32n-R54-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-22" value="UI shows &quot;Empty gallery&quot; message&lt;div&gt;(Thid would lead to the state of asking user to turn on sync&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-24" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-26" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="910" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mT2T0vd9U5Znf32n-R54-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Application view- Main gallery display&lt;/h1&gt;&lt;p&gt;Goal: To illustrate the process involved in fetching all the photos of the user and displaying them in appropriate grid views in the main gallery view.&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="550" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aQ-A9QGUKl31CdBvyOFe" name="Main Gallery View-Server side architecture">
+    <mxGraphModel dx="3473" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EclU5eAB8wHUrEpQA5vV-13" target="EclU5eAB8wHUrEpQA5vV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-12" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(1. GET /photos [JWT])&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-11">
+          <mxGeometry x="-0.1609" relative="1" as="geometry">
+            <mxPoint x="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-13" value="Mobile App(External actor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Main Gallery View- Server side architecture diagram&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;Goal: To depict the server-side architecture flow of how photos will be fetched and rendered in the main gallery view of the app&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="710" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-15" value="Server side architecture" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="1400" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-16" value="Amazon API gateway" style="swimlane;startSize=20;html=1;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-15">
+          <mxGeometry y="20" width="290" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-16" source="EclU5eAB8wHUrEpQA5vV-17" target="EclU5eAB8wHUrEpQA5vV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-17" value="Amazon API Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-16">
+          <mxGeometry x="105" y="60" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-33" value="is Valid JWT?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-16">
+          <mxGeometry x="105" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-18" value="Lambda" style="swimlane;startSize=20;html=1;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-15">
+          <mxGeometry x="290" y="20" width="590" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-18" source="EclU5eAB8wHUrEpQA5vV-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-18">
+          <mxGeometry x="270" y="70" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-23" value="getPhotosLambda&lt;div&gt;&lt;em style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Extracts &lt;code&gt;user_id&lt;/code&gt; from the JWT.&lt;/em&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-18">
+          <mxGeometry x="190" y="10" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-18" source="EclU5eAB8wHUrEpQA5vV-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="104.5" as="targetPoint" />
+            <mxPoint x="-20" y="324.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="235" y="340" />
+              <mxPoint x="235" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-39" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-38">
+          <mxGeometry x="-0.9155" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-40" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1},&amp;quot;list_item&amp;quot;,{},&amp;quot;bullet_list&amp;quot;,{},&amp;quot;list_item&amp;quot;,{}]&quot;&gt;&lt;code&gt;(2a. Valid JWT, triggers Lambda)&lt;/code&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-38">
+          <mxGeometry x="-0.5287" y="-2" relative="1" as="geometry">
+            <mxPoint x="62" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-46" value="Database Query successful ?&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-18">
+          <mxGeometry x="236.75" y="500" width="135.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="100" as="sourcePoint" />
+            <mxPoint x="790" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-42" value="(3. SELECT * FROM photos...)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-41">
+          <mxGeometry x="-0.4663" y="-1" relative="1" as="geometry">
+            <mxPoint x="52" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-19" value="Amazon RDS&amp;nbsp;" style="swimlane;startSize=20;html=1;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-15">
+          <mxGeometry x="880" y="20" width="520" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-24" value="Amazon RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" vertex="1" parent="EclU5eAB8wHUrEpQA5vV-19">
+          <mxGeometry x="200" y="56" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-15" source="EclU5eAB8wHUrEpQA5vV-24" target="EclU5eAB8wHUrEpQA5vV-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="150" />
+              <mxPoint x="660" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-44" value="(4. List of Photo Records [JSON])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-43">
+          <mxGeometry x="0.1535" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-15" source="EclU5eAB8wHUrEpQA5vV-46" target="EclU5eAB8wHUrEpQA5vV-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="585" />
+              <mxPoint x="90" y="230" />
+              <mxPoint x="130" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-48" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-47">
+          <mxGeometry x="-0.939" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-49" value="(5. 200 OK Response [JSON list])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-47">
+          <mxGeometry x="-0.5386" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EclU5eAB8wHUrEpQA5vV-15" source="EclU5eAB8wHUrEpQA5vV-46" target="EclU5eAB8wHUrEpQA5vV-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="690" />
+              <mxPoint x="230" y="690" />
+              <mxPoint x="230" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-54" value="(5b. 500 Internal Server Error)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-52">
+          <mxGeometry x="-0.5151" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-55" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-52">
+          <mxGeometry x="-0.9189" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EclU5eAB8wHUrEpQA5vV-33" target="EclU5eAB8wHUrEpQA5vV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-36" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-35">
+          <mxGeometry x="-0.8976" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-37" value="(2b. 401 Unauthorized Error)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-35">
+          <mxGeometry x="-0.2726" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EclU5eAB8wHUrEpQA5vV-17" target="EclU5eAB8wHUrEpQA5vV-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292" y="360" />
+              <mxPoint x="292" y="410" />
+              <mxPoint x="110" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-51" value="(6. 200 OK Response [JSON list])" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-50">
+          <mxGeometry x="0.4049" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.654;entryY=0.948;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EclU5eAB8wHUrEpQA5vV-17" target="EclU5eAB8wHUrEpQA5vV-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="420" />
+              <mxPoint x="293" y="420" />
+              <mxPoint x="293" y="480" />
+              <mxPoint x="99" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EclU5eAB8wHUrEpQA5vV-57" value="(6b. 500 Internal Server Error)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EclU5eAB8wHUrEpQA5vV-56">
+          <mxGeometry x="0.4391" y="-1" relative="1" as="geometry">
+            <mxPoint x="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uPmoQT6t7mvAOTmeX4oE" name="Main Gallery View-Block Diagram">
+    <mxGraphModel dx="1737" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wKyz78thEzWYcF34SXgP-1" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;2. Amazon RDS (PostgreSQL): Database Schema&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;This diagram shows the database tables we will create inside our PostgreSQL instance. These tables will hold all the metadata for our application.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="260" width="340" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-3" value="Amazon RDS Instance: &quot;photosync-db&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="300" width="246" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-5" value="Table: &quot;users&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-6" value="- user_id (Primary Key)&lt;div&gt;- email&lt;br&gt;- storage_used (e.g., 2.5GB)&lt;br&gt;- storage_quota (e.g., 5GB)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="430" width="163" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-8" value="Table: &quot;photos&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="630" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-9" value="- photo_id (Primary Key)&lt;br/&gt;- owner_id (Foreign Key to users)&lt;br/&gt;- object_key (e.g., &quot;user_id_123/...&quot;)&lt;br/&gt;- file_size&lt;br/&gt;- created_at (timestamp)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="680" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="870" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-11" value="Table: &quot;pending_uploads&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="890" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wKyz78thEzWYcF34SXgP-12" value="- pending_id (Primary Key)&lt;br/&gt;- owner_id (Foreign Key to users)&lt;br/&gt;- file_size&lt;br/&gt;- created_at (timestamp)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406.5" y="940" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
